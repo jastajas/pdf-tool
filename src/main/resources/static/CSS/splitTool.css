@@ -1,0 +1,98 @@
+html {
+    font-family: Verdana;
+}
+
+#splitPdfForm {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    border-radius:0px;
+}
+
+#mergePdfFormHeader {
+    width: 60%;
+}
+
+#mergePdfFormBody {
+    margin: 20px;
+    width: 60%;
+}
+
+#mergePdfFormBody label {
+    margin: 20px 0px 5px 0px;
+    text-transform: uppercase;
+}
+
+#mergePdfFormBody table {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#mergePdfFormBody table thead tr th {
+    font-size: 12px;
+    padding: 4px;
+}
+
+#mergePdfFormBody table tbody tr td,
+#mergePdfFormBody table thead tr th {
+    border-bottom: 2px solid rgb(130, 224, 130);
+}
+#mergePdfFormBody table tbody tr td:first-of-type{
+    text-align: center;
+    width: 50px;
+}
+
+#mergePdfFormBody table tbody tr td:last-of-type{
+    width: 60px;
+}
+
+#mergePdfFormBody table tbody tr td:nth-child(2) p{
+    display: inline;
+}
+
+#mergePdfFormBody table tbody tr td input[type="file"]{
+    display: none;
+    width: 100px;
+}
+#mergePdfFormBody table tbody tr td input[type="number"]{
+    background-color: rgba(250,250,250,0.3);
+    border: none;
+    width: 150px;
+    text-align: center;
+}
+
+#mergePdfFormBody table tbody tr td select{
+    height: 27px;
+}
+
+#mergePdfFormBody table tbody tr td button {
+    width: 80px;
+    margin: 2px 5px;
+}
+
+#mergePdfFormButtons {
+    width: 50%;
+}
+
+#mergePdfFormButtons button {
+    width: 250px;
+}
+
+#pagesCounter{
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#pagesCounter p{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}

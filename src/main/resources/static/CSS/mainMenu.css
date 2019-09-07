@@ -1,0 +1,72 @@
+#pdfToolMenu {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    border-radius: 0px;
+}
+
+#pdfToolMenuHeader {
+    width: 60%;
+}
+
+#pdfToolMenuBody {
+    margin: 20px;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pdfToolMenuBody a {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(100, 155, 95);
+    margin: 20px;
+}
+
+#pdfToolMenuBody  a:link, #pdfToolMenuBody  a:visited, #pdfToolMenuBody  a:hover, #pdfToolMenuBody  a:active {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+.btnInternalBckgnd {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnInternalBckgnd:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.descriptionBtn {
+    display: none;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0;
+    width: 80px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#firstIconPdfMenu {
+    background-image: url("../images/mergeIcon.svg");
+}
+
+#secondIconPdfMenu {
+    background-image: url("../images/splitIcon.svg");
+}
+
+
+#firstIconPdfMenu,
+#secondIconPdfMenu,
+#thirdIconPdfMenu,
+#fourthIconPdfMenu{
+    background-position: center center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}

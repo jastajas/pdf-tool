@@ -1,0 +1,89 @@
+#mergePdfForm {
+  width: 100%;
+  height: 100vh;
+}
+
+#mergePdfFormHeader {
+  width: 60%;
+}
+
+#mergePdfFormBody {
+  margin: 20px;
+  width: 60%;
+}
+
+#mergePdfFormBody label {
+  margin: 20px 0px 5px 0px;
+}
+
+#mergePdfFormBody table {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#mergePdfFormBody table thead tr th {
+  font-size: 12px;
+  padding: 4px;
+}
+
+#mergePdfFormBody table tbody tr td,
+#mergePdfFormBody table thead tr th {
+  border-bottom: 2px solid rgb(130, 224, 130);
+}
+#mergePdfFormBody table tbody tr td:first-of-type{
+  text-align: center;
+}
+
+#mergePdfFormBody table tbody tr td:nth-child(2) p{
+  display: inline;
+}
+
+#mergePdfFormBody table tbody tr td button {
+  width: 80px;
+  margin: 2px 5px;
+}
+
+#mergePdfFormButtons {
+  width: 50%;
+}
+
+#mergePdfFormButtons button {
+  width: 250px;
+}
+
+/* result style set*/
+
+#mergePdfResult {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  border-radius:0px;
+}
+
+#mergePdfResultHeader {
+  width: 60%;
+}
+
+#mergePdfResultBody {
+  margin: 20px;
+  width: 60%;
+}
+
+#mergePdfResultBody label {
+  margin: 20px 0px 5px 0px;
+}
+
+#mergePdfResultBody button {
+  width: 250px;
+}
+#mergePdfResultBody ol {
+  margin-top: 0px;
+  width: 100%;
+}
+
+#mergePdfResultBody  a:link, #mergePdfResultBody  a:visited, #mergePdfResultBody  a:hover, #mergePdfResultBody  a:active {
+  color: rgb(255,255,255);
+  text-decoration: none;
+}
